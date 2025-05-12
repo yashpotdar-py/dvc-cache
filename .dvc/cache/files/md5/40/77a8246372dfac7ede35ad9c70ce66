@@ -1,0 +1,75 @@
+{
+    "best_model": "lightgbm_model",
+    "timestamp": "20250512_145317",
+    "test_metrics": {
+        "knn_model": {
+            "accuracy": 0.996,
+            "precision": 0.9962121212121212,
+            "recall": 0.9987341772151899,
+            "f1_score": 0.9974715549936789,
+            "roc_auc": 0.9999005424954792
+        },
+        "lightgbm_model": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "roc_auc": 1.0
+        },
+        "logistic_regression_model": {
+            "accuracy": 0.993,
+            "precision": 0.9974587039390089,
+            "recall": 0.9936708860759493,
+            "f1_score": 0.9955611921369689,
+            "roc_auc": 0.9997709463532248
+        },
+        "xgboost_model": {
+            "accuracy": 0.999,
+            "precision": 1.0,
+            "recall": 0.9987341772151899,
+            "f1_score": 0.999366687777074,
+            "roc_auc": 1.0
+        },
+        "random_forest_model": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "roc_auc": 1.0
+        },
+        "svm_model": {
+            "accuracy": 0.996,
+            "precision": 1.0,
+            "recall": 0.9949367088607595,
+            "f1_score": 0.9974619289340102,
+            "roc_auc": 0.9999939722724533
+        }
+    },
+    "best_model_detailed_report": {
+        "0": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 210.0
+        },
+        "1": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 790.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 1000.0
+        },
+        "weighted avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 1000.0
+        }
+    }
+}
