@@ -1,0 +1,48 @@
+{
+    "best_model": "random_forest_model",
+    "timestamp": "20250511_171528",
+    "validation_metrics": {
+        "random_forest_model": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "roc_auc": 1.0
+        },
+        "knn_model": {
+            "accuracy": 0.99875,
+            "precision": 1.0,
+            "recall": 0.99836867862969,
+            "f1_score": 0.9991836734693877,
+            "roc_auc": 0.9999956381781543
+        },
+        "logistic_regression_model": {
+            "accuracy": 0.9975,
+            "precision": 0.99836867862969,
+            "recall": 0.99836867862969,
+            "f1_score": 0.99836867862969,
+            "roc_auc": 0.9999651054252341
+        },
+        "svm_model": {
+            "accuracy": 0.99625,
+            "precision": 1.0,
+            "recall": 0.9951060358890701,
+            "f1_score": 0.9975470155355682,
+            "roc_auc": 1.0
+        },
+        "xgboost_model": {
+            "accuracy": 0.99875,
+            "precision": 1.0,
+            "recall": 0.99836867862969,
+            "f1_score": 0.9991836734693877,
+            "roc_auc": 1.0
+        },
+        "lightgbm_model": {
+            "accuracy": 0.9975,
+            "precision": 0.99836867862969,
+            "recall": 0.99836867862969,
+            "f1_score": 0.99836867862969,
+            "roc_auc": 0.9999912763563086
+        }
+    }
+}
